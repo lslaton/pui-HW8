@@ -1,0 +1,23 @@
+/* || ABOUT PAGE || */
+/* About Text */
+.about{
+    padding-top: 73px;
+}
+
+/* || EDUCATION AND EXPERIENCE SECTIONS || */
+/* Education and Experience Headers */
+.about-header{
+    font: normal 24px/32px "DM Sans";
+    color: #FE938C;
+}
+
+/* Education and Experience Text */
+.about-subtext{
+    font: normal 18px/27px "Poppins";
+    color: #2F2F2F;
+}
+
+/* Name of School and Organization */
+.organization{
+    font-weight: bold;
+}

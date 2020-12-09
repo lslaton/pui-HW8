@@ -1,0 +1,211 @@
+/* || PAGE FORMATTING || */
+html, body{
+    width: 100% !important;
+    height: 100% !important;
+    padding:0;
+    position: relative;
+}
+
+/* || ROW PADDING FOR GRID || */
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.work-row{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* || NAVIGATION BAR || */
+/* Nav Bar Background*/
+.navbar{
+    background-color: #2F2F2F;
+}
+
+/* Name in Nav Bar */
+.navbar-brand{
+    font: normal 36px/47px "DM Sans";
+    color: #638898;
+}
+
+/* Hovering on Name in Nav Bar */
+.navbar-brand:hover{
+    color: #FE938C;
+}
+
+/* Alignment in Nav Bar */
+.navbar-nav{
+    align-content: flex-end;
+}
+
+/* Hamburger Menu- remove focus outline */
+/* Source: https://stackoverflow.com/questions/21719306/getting-rid-of-a-blue-box-around-button-when-pressed */
+nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
+    outline: none;
+}
+
+/* Nav Bar Text*/
+.nav-item{
+    font: normal 24px/31px "DM Sans";
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+/* Hover over Nav Bar Items */
+.nav-item:hover{
+    color: #FE938C;
+}
+
+/* Active Page */
+.active{
+    color: #D5AC4E;
+}
+
+/* || HOME PAGE CONTENT || */
+/* Introduction Information*/
+/*Source: https://forum.freecodecamp.org/t/solved-why-is-my-navbar-covering-next-section-container/97897 */
+.intro{
+    padding-top: 86px;
+    text-align: left;
+    font: normal 48px/62px "DM Sans";
+    color: #FE938C;
+    height: auto;
+    width: 100%;
+}
+
+.intro-text{
+    margin: auto;
+}
+
+#lia-cartoon{
+    margin: auto;
+}
+
+@media (max-width: 768px){
+    #lia-cartoon{
+        height: 332px;
+        width: auto;
+    }
+    .work-col{
+        border: 1px solid #2F2F2F;
+    }
+}
+
+/* || PROJECTS HEADER || */
+#projects{
+    font: normal 36px/47px "DM Sans";
+    color: #D5AC4E;
+    text-align: center;
+}
+
+/* Project Boxes */
+.work-col{
+    background-color: #638898;
+    width: auto;
+    height: 324px;
+}
+
+.left{
+    border-right: 1px solid #2F2F2F;
+}
+
+.right{
+    border-left: 1px solid #2F2F2F;
+}
+
+.bottom{
+    border-bottom: 1px solid #2F2F2F;
+}
+
+.top{
+    border-top: 1px solid #2F2F2F;
+}
+
+/* Hover over Project Boxes */
+/* Source for transition: https://www.w3schools.com/howto/howto_css_transition_hover.asp */
+.work-col:hover{
+    background-color: #D5AC4E;
+    transition: 0.1s;
+}
+
+/* Source: https://stackoverflow.com/questions/5061940/changing-the-child-elements-css-when-the-parent-is-hovered */
+.work-col:hover .work-text {
+    display: block;
+    transition: 0.3s;
+}
+
+/* Source: https://www.codeblocq.com/2016/05/Blur-Image-on-Hover-with-CSS/ */
+.work-col:hover .work-image{
+    filter: blur(2px);
+    transition: 0.3s;
+}
+
+/* Images in Project Boxes */
+.work-image{
+    display: block;
+    margin: auto;
+    top: 86px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Text in Project Boxes */
+/* Source: https://www.w3schools.com/css/css_align.asp */
+.work-text{
+    font: normal 36px/47px "DM Sans";
+    color: #2F2F2F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 345px;
+    height: auto;
+    display: none;
+}
+
+/* Hovering over Text in Project Boxes */
+.work-text:hover{
+    opacity: 1;
+}
+
+/* Color of Text in Project Boxes */
+.white{
+    color: #FFFFFF;
+}
+
+/* || FOOTER || */
+.footer{
+    background-color: #D5AC4E;
+    border-color: #D5AC4E;
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 90px;
+}
+
+.footer-row{
+    padding-top: 20px;
+    padding-bottom: 0;
+    background-color: #D5AC4E;
+}
+
+.footer-text{
+    font: normal 18px/28px "DM Sans";
+    color: #2F2F2F;
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.footer-text:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-margin{
+    background-color: #D5AC4E;
+}

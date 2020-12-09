@@ -1,0 +1,105 @@
+/* || PROJECT PAGES || */
+
+/* || BODY TEXT || */
+.text {
+    font: normal 18px/27px "Poppins";
+    color: #2F2F2F;
+}
+
+.center{
+    text-align: center;
+}
+
+/* Setting the height of a row */
+.space {
+    height: 65px;
+}
+
+hr.solid {
+    border-top: 2px solid #D5AC4E;
+    width: 75%;
+}
+
+/* Page Title */
+.page-title{
+    font: normal 72px/94px "DM Sans";
+    color: #D5AC4E;
+    text-align: center;
+    padding-top: 86px;
+}
+
+/* || OVERVIEW SECTION || */
+/* Titles in Overview Section*/
+.overview-titles{
+    text-decoration: underline;
+}
+
+.overview-sections{
+    font: bold 18px/24px "DM Sans";
+    color: #638898;
+}
+
+.overview-link{
+    color: #FE938C;
+    text-decoration: underline;
+}
+
+.overview-link:hover{
+    color: #D5AC4E;
+}
+
+/* || PROBLEM AND SOLUTION SECTION || */
+/* Titles in Problem-Solution Section */
+.problem-title{
+    font: bold 32px/42px "DM Sans";
+    color: #2F2F2F;
+}
+
+.problem-question{
+    font: bold 32px/42px "DM Sans";
+    color: #FE938C;
+}
+
+.solution-title{
+    font: bold 32px/42px "DM Sans";
+    color: #2F2F2F;
+}
+
+.solution-subtitle{
+    font-weight: bold;
+    font-size: 28px;
+    color: #2F2F2F;
+}
+
+/* Formatting picture */
+.work-page-img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #2F2F2F;
+}
+
+/* Prototype images on Kelly Strayhorn Theater Page */
+.prototype-img {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* || PROCESS SECTION || */
+/* Process Header */
+.process-header{
+    font: bold 32px/42px "DM Sans";
+    color: #2F2F2F;
+}
+
+/* Titles in Process Section */
+.process-titles{
+    font: normal 28px/36px "DM Sans";
+    color: #2F2F2F;
+}
+
+/* || FOOTER || */
+.active-footer{
+    color: #FFFFFF;
+}
