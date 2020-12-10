@@ -12,7 +12,7 @@ html, body{
     padding-bottom: 10px;
 }
 
-.work-row{
+.work-row, #first-row{
     padding-top: 0;
     padding-bottom: 0;
 }

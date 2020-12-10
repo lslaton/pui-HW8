@@ -465,23 +465,41 @@
 <script>
     window.sr = ScrollReveal();
     sr.reveal(".page-title", {
-        delay: 100,
-        easing: 'ease-in',
-        reset:true
+        duration: 2000,
+        origin: 'top',
+        distance: '300px'
+    })
+    sr.reveal(".overview-subtitle", {
+        duration: 2000,
+        origin: 'top',
+        distance: '300px'
     })
     sr.reveal(".header-img", {
-        delay: 100,
-        easing: 'ease-in',
-        reset: true
+        delay: 1000,
+        duration: 2000,
+        origin: 'bottom',
+        distance: '300px'
     })
     sr.reveal(".overview", {
-        delay: 200,
-        easing: 'ease-in',
-        reset: true
+        delay: 1000,
+        duration: 2000,
+        origin: 'bottom',
+        distance: '300px'
     })
     sr.reveal(".content", {
         delay: 100,
-        easing: 'ease-in',
+        duration: 1000,
+        origin: 'bottom',
+        reset: true
+    })
+    sr.reveal(".footer-row",{
+        duration: 1000,
+        easing: "ease-in",
+        reset: true
+    })
+    sr.reveal(".footer-text", {
+        delay: 500,
+        easing: "ease-in",
         reset: true
     })
 </script>
