@@ -217,6 +217,9 @@
 <!--    </div>-->
 </div>
 
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="page-scroll-reveal.js"></script>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -230,42 +233,6 @@
         crossorigin="anonymous"></script>
 
 <!-- ScrollReveal JS Library: https://scrollrevealjs.org/ -->
-<script src="https://unpkg.com/scrollreveal"></script>
-<script>
-    window.sr = ScrollReveal();
-    sr.reveal("#lia-cartoon", {
-        duration: 2000,
-        origin: 'left',
-        distance: '300px'
-    })
-    sr.reveal(".intro-text", {
-        duration: 2000,
-        origin: 'right',
-        distance: '300px'
-    })
-    sr.reveal("#projects", {
-        delay: 1000,
-        easing: 'ease-in'
-    })
-    sr.reveal("#first-row", {
-        delay: 2000,
-        easing: 'ease-in',
-        opacity: 0,
-    })
-    sr.reveal(".work-row", {
-        delay: 200,
-        opacity: 0,
-    })
-    sr.reveal(".footer-row",{
-        duration: 1000,
-        easing: "ease-in",
-        reset: true
-    })
-    sr.reveal(".footer-text", {
-        delay: 500,
-        easing: "ease-in",
-        reset: true
-    })
-</script>
+
 </body>
 </html>
