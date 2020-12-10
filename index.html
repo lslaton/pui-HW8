@@ -15,9 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-    <!-- ScrollReveal JS Library: https://scrollrevealjs.org/ -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
     <title>Lia Slaton- Portfolio</title>
 </head>
 
@@ -214,8 +211,11 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+<!-- ScrollReveal JS Library: https://scrollrevealjs.org/ -->
+<script src="https://unpkg.com/scrollreveal"></script>
 <script>
-    ScrollReveal().reveal("#lia-cartoon", {
+    window.sr = ScrollReveal();
+    sr.reveal("#lia-cartoon", {
         delay: 200,
         easing: 'ease-in',
         reset: true
@@ -223,16 +223,13 @@
     ScrollReveal().reveal(".intro-text", {
         delay: 200,
         easing: 'ease-in',
-        reset: true
     })
     ScrollReveal().reveal("#projects", {
         delay: 400,
         easing: 'ease-in',
-        reset: true
     })
     ScrollReveal().reveal(".work-row", {
         opacity:0,
-        reset: true
     })
 </script>
 </body>

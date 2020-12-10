@@ -17,9 +17,6 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-    <!-- ScrollReveal JS Library: https://scrollrevealjs.org/ -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
     <title>Lia Slaton- Shall Make, Shall Be</title>
 </head>
 <body>
@@ -486,23 +483,26 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+<!-- ScrollReveal JS Library: https://scrollrevealjs.org/ -->
+<script src="https://unpkg.com/scrollreveal"></script>
 <script>
-    ScrollReveal().reveal(".page-title", {
+    window.sr = ScrollReveal();
+    sr.reveal(".page-title", {
+        delay: 100,
+        easing: 'ease-in',
+        reset:true
+    })
+    sr.reveal(".header-img", {
         delay: 100,
         easing: 'ease-in',
         reset: true
     })
-    ScrollReveal().reveal(".header-img", {
-        delay: 100,
-        easing: 'ease-in',
-        reset: true
-    })
-    ScrollReveal().reveal(".overview", {
+    sr.reveal(".overview", {
         delay: 200,
         easing: 'ease-in',
         reset: true
     })
-    ScrollReveal().reveal(".content", {
+    sr.reveal(".content", {
         delay: 100,
         easing: 'ease-in',
         reset: true
