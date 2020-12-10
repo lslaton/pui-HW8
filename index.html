@@ -84,7 +84,7 @@
     <!-- Project Boxes-->
     <!-- Row 1 -->
     <div class="row work-row">
-        <div class="col-lg-1 col-md-1"></div>
+        <div class="col-lg-1 col-md-1" id="first-row"></div>
 
         <!-- Kelly Strayhorn Theater -->
         <!-- Source: https://stackoverflow.com/questions/51680888/bootstrap-center-row-content-below-certain-breakpoint -->
@@ -220,16 +220,27 @@
         easing: 'ease-in',
         reset: true
     })
-    ScrollReveal().reveal(".intro-text", {
+    sr.reveal(".intro-text", {
         delay: 200,
+        origin: 'right',
         easing: 'ease-in',
+        reset: true
     })
-    ScrollReveal().reveal("#projects", {
-        delay: 400,
+    sr.reveal("#projects", {
+        delay: 1200,
         easing: 'ease-in',
+        reset: true
     })
-    ScrollReveal().reveal(".work-row", {
-        opacity:0,
+    sr.reveal("#first-row", {
+        delay: 2200,
+        easing: 'ease-in',
+        opacity: 0,
+        reset: true
+    })
+    sr.reveal(".work-row", {
+        delay: 200,
+        opacity: 0,
+        reset: true
     })
 </script>
 </body>
