@@ -6,6 +6,7 @@
     color: #2F2F2F;
 }
 
+/* For any items that need to be centered */
 .center{
     text-align: center;
 }
@@ -15,6 +16,7 @@
     height: 65px;
 }
 
+/* Section Line */
 hr.solid {
     border-top: 2px solid #D5AC4E;
     width: 75%;
@@ -29,16 +31,13 @@ hr.solid {
 }
 
 /* || OVERVIEW SECTION || */
-/* Titles in Overview Section*/
-.overview-titles{
-    text-decoration: underline;
-}
-
-.overview-sections{
+/* Text in Overview Section */
+.overview-subtitle{
     font: bold 18px/24px "DM Sans";
     color: #638898;
 }
 
+/* Link formatting in Overview Section */
 .overview-link{
     color: #FE938C;
     text-decoration: underline;
@@ -49,54 +48,37 @@ hr.solid {
 }
 
 /* || PROBLEM AND SOLUTION SECTION || */
-/* Titles in Problem-Solution Section */
-.problem-title{
+/* Titles in Sections */
+.project-title{
     font: bold 32px/42px "DM Sans";
     color: #2F2F2F;
 }
 
+/* Problem Question text */
 .problem-question{
     font: bold 32px/42px "DM Sans";
     color: #FE938C;
 }
 
-.solution-title{
-    font: bold 32px/42px "DM Sans";
+/* Subtitle for Sections */
+.project-subtitle{
+    font: bold 24px/32px "DM Sans";
     color: #2F2F2F;
 }
 
-.solution-subtitle{
-    font-weight: bold;
-    font-size: 28px;
-    color: #2F2F2F;
-}
-
-/* Formatting picture */
+/* Project images */
 .work-page-img {
     width: 100%;
     height: auto;
     border: 2px solid #2F2F2F;
 }
 
-/* Prototype images on Kelly Strayhorn Theater Page */
+/* Prototype images for Community on the Go */
 .prototype-img {
     height: auto;
     width: 100%;
     display: block;
     margin: auto;
-}
-
-/* || PROCESS SECTION || */
-/* Process Header */
-.process-header{
-    font: bold 32px/42px "DM Sans";
-    color: #2F2F2F;
-}
-
-/* Titles in Process Section */
-.process-titles{
-    font: normal 28px/36px "DM Sans";
-    color: #2F2F2F;
 }
 
 /* || FOOTER || */
