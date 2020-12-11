@@ -75,15 +75,21 @@ const pageHeaderBottom = {
     distance: '300px'
 }
 
+const content = {
+    delay: 200,
+    duration: 1500
+}
+
 // Animation to header image and overview text
     sr.reveal(".header-img", pageHeaderBottom)
     sr.reveal(".overview", pageHeaderBottom)
 
-// Animation for content rows- reveal after .2 seconds for 1.5 seconds
-    sr.reveal(".content", {
-    delay: 200,
-    duration: 1500
-})
+    sr.reveal(".line, .problem-section, .solution-section, .role-section, .process-section, .process-1, .process-2, .process-3, .process-4", content)
+// // Animation for content rows- reveal after .2 seconds for 1.5 seconds
+//     sr.reveal(".content", {
+//     delay: 200,
+//     duration: 1500
+// })
 
 // ||ABOUT PAGE ANIMATION ||
 
