@@ -5,7 +5,7 @@
 //          https://medium.com/@matthewdtotheg/animations-with-scrollreveal-js-e4062961cbb9
 //          https://www.npmjs.com/package/scrollreveal
 
-window.sr = ScrollReveal({reset: true});
+window.sr = ScrollReveal();
 
 // || FOOTER ANIMATION ||
 
@@ -83,6 +83,7 @@ const pageHeaderBottom = {
     sr.reveal(".content", {
     delay: 200,
     duration: 1500,
+        reset: true,
 })
 
 // ||ABOUT PAGE ANIMATION ||
