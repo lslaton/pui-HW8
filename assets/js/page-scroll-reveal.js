@@ -94,14 +94,7 @@ const pageHeaderBottom = {
 // Animation for solution image
     sr.reveal(".solution-img", {
         delay: 500,
-        duration: 1500,
         origin: 'bottom'
-    })
-
-// Animation for work page images
-    sr.reveal(".process-img", {
-        delay: 200,
-        duration: 1500
     })
 
 // ||ABOUT PAGE ANIMATION ||
