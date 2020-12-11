@@ -10,9 +10,6 @@ window.sr = ScrollReveal({reset: true});
 // || FOOTER ANIMATION ||
 
 // Footer row animation- for 1 second and ease in
-document.getElementById("#footer-row-1").style.display = 'block';
-document.getElementById("#footer-row-1").style.display = 'none';
-
 sr.reveal(".footer-row",{
     viewport: document.getElementById("#footer-row-1"),
     // duration: 1000,
