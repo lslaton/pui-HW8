@@ -87,9 +87,10 @@ const pageHeaderBottom = {
 })
 
 // Animation for solution image
-    sr.reveal(".solution-title, .project-name", {
-        delay: 500,
-        origin: 'bottom'
+    sr.reveal(".solution-title, .role, .process, .user", {
+        duration: 1500,
+        origin: 'bottom',
+        distance: '100px'
     })
 
 // ||ABOUT PAGE ANIMATION ||
