@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="87b3f75a-caef-4cde-aec6-d4f6e0b1499a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/ixdp1-ia.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ixdp1-ia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ixdp1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ixdp1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pui-home-paper.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pui-home-paper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pui-prod-browsing-paper.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pui-prod-browsing-paper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pui-prod-info-paper.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/pui-prod-info-paper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pui.html" beforeDir="false" afterPath="$PROJECT_DIR$/pui.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
       <workItem from="1607619143234" duration="3900000" />
       <workItem from="1607646602761" duration="27866000" />
       <workItem from="1607705331757" duration="1450000" />
-      <workItem from="1607713775501" duration="5031000" />
+      <workItem from="1607713775501" duration="6592000" />
     </task>
     <servers />
   </component>
