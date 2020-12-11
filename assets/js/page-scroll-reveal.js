@@ -81,7 +81,7 @@ const pageHeaderBottom = {
 
 // Animation for section titles
     sr.reveal(".project-title, .project-name, .project-subtitle",{
-        duration: 1500,
+        delay: 200
     })
 
 // Animation for problem question
