@@ -96,7 +96,6 @@ const pageHeaderBottom = {
 
 // Image animation- from left for 2 seconds
 sr.reveal(".about-image", {
-    duration: 2000,
     origin: 'left',
     distance: '300px'
 })
