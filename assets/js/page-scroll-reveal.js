@@ -77,14 +77,16 @@ const pageHeaderBottom = {
 
 const content = {
     delay: 200,
-    duration: 1500
+    duration: 1500,
+    reset: true
 }
 
 // Animation to header image and overview text
     sr.reveal(".header-img", pageHeaderBottom)
     sr.reveal(".overview", pageHeaderBottom)
 
-    sr.reveal(".line, .problem-section, .solution-section, .role-section, .process-section, .process-1, .process-2, .process-3, .process-4", content)
+    sr.reveal(".problem-section, .solution-section, .role-section, .process-section, .process-1, .process-2, .process-3, .process-4", content)
+sr.reveal(".line-1, .line-2,.line-3,.line-4,.line-5,.line-6,", content)
 // // Animation for content rows- reveal after .2 seconds for 1.5 seconds
 //     sr.reveal(".content", {
 //     delay: 200,
