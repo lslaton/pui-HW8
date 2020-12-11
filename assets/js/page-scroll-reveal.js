@@ -13,12 +13,14 @@ window.sr = ScrollReveal({reset: true});
 sr.reveal(".footer-row",{
     duration: 1000,
     easing: "ease-in",
+    reset: true
 })
 
 // Footer text animation- delay 0.5 seconds and ease in
 sr.reveal(".footer-text", {
     delay: 500,
     easing: "ease-in",
+    reset: true
 })
 
 // || HOME PAGE ANIMATIONS ||
