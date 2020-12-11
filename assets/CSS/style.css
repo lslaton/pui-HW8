@@ -85,7 +85,7 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
 
 @media (max-width: 768px){
     #lia-cartoon{
-        height: 332px;
+        height: 300px;
         width: auto;
     }
     .work-col{
