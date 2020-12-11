@@ -88,6 +88,10 @@ const pageHeaderBottom = {
 
 // Animation for solution image
     sr.reveal(".solution-title, .role, .process, .user", {
+        viewport: document.getElementsByClassName("solution-title"),
+        viewport: document.getElementsByClassName("role"),
+        viewport: document.getElementsByClassName("process"),
+        viewport: document.getElementsByClassName("user"),
         duration: 1500,
         origin: 'bottom',
         distance: '100px'
