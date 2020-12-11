@@ -72,17 +72,12 @@ const pageHeaderBottom = {
     delay: 1000,
     duration: 2000,
     origin: 'bottom',
-    distance: '300px'
+    distance: '100px'
 }
 
 // Animation to header image and overview text, as well as section titles
     sr.reveal(".header-img", pageHeaderBottom)
     sr.reveal(".overview", pageHeaderBottom)
-
-// Animation for section titles
-    sr.reveal(".project-title, .project-name, .project-subtitle",{
-        delay: 200
-    })
 
 // Animation for problem question
     sr.reveal(".problem-question", {
@@ -92,7 +87,7 @@ const pageHeaderBottom = {
 })
 
 // Animation for solution image
-    sr.reveal(".solution-img", {
+    sr.reveal(".solution-title, .project-name, .solution-img", {
         delay: 500,
         origin: 'bottom'
     })
