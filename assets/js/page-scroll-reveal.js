@@ -96,9 +96,6 @@ const titles = {
 // Animation for solution image
     sr.reveal(".problem-title", titles)
     sr.reveal(".solution-title", titles)
-    sr.reveal(".role-title,", titles)
-    sr.reveal(".research-title", titles)
-    sr.reveal(".user-title", titles)
 
 
 // ||ABOUT PAGE ANIMATION ||
