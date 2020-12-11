@@ -14,8 +14,8 @@ sr.reveal(".footer-row",{
     viewport: document.getElementById("#footer-row-1"),
     // duration: 1000,
     easing: "ease-in",
-    reset: true
-})
+    reset: true,
+}, console.log("made it"))
 
 // Footer text animation- delay 0.5 seconds and ease in
 sr.reveal(".footer-text", {
