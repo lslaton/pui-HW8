@@ -5,7 +5,7 @@
 //          https://medium.com/@matthewdtotheg/animations-with-scrollreveal-js-e4062961cbb9
 //          https://www.npmjs.com/package/scrollreveal
 
-window.sr = ScrollReveal();
+window.sr = ScrollReveal({reset: true});
 
 // || FOOTER ANIMATION ||
 
