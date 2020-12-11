@@ -75,15 +75,34 @@ const pageHeaderBottom = {
     distance: '300px'
 }
 
-// Animation to header image and overview text
+// Animation to header image and overview text, as well as section titles
     sr.reveal(".header-img", pageHeaderBottom)
     sr.reveal(".overview", pageHeaderBottom)
 
-// Animation for content rows- reveal after .2 seconds for 1.5 seconds
-    sr.reveal(".content", {
-    delay: 200,
-    duration: 1500
+// Animation for section titles
+    sr.reveal(".project-title, .project-name, .project-subtitle",{
+        duration: 1500,
+    })
+
+// Animation for problem question
+    sr.reveal(".problem-question", {
+        delay: 200,
+        duration: 1500,
+        distance: '100px'
 })
+
+// Animation for solution image
+    sr.reveal(".solution-img", {
+        delay: 500,
+        duration: 1500,
+        origin: 'bottom'
+    })
+
+// Animation for work page images
+    sr.reveal(".process-img", {
+        delay: 200,
+        duration: 1500
+    })
 
 // ||ABOUT PAGE ANIMATION ||
 
