@@ -86,16 +86,19 @@ const pageHeaderBottom = {
         distance: '100px'
 })
 
+// Animations for titles- 100px from bottom for 1.5 seconds
+const titles = {
+    duration: 1500,
+    origin: 'bottom',
+    distance: '100px'
+}
+
 // Animation for solution image
-    sr.reveal(".solution-title, .role, .process, .user", {
-        viewport: document.getElementsByClassName("solution-title"),
-        viewport: document.getElementsByClassName("role"),
-        viewport: document.getElementsByClassName("process"),
-        viewport: document.getElementsByClassName("user"),
-        duration: 1500,
-        origin: 'bottom',
-        distance: '100px'
-    })
+    sr.reveal(".solution-title", titles)
+    sr.reveal(".role,", titles)
+    sr.reveal(".process", titles)
+    sr.reveal(".user", titles)
+
 
 // ||ABOUT PAGE ANIMATION ||
 
