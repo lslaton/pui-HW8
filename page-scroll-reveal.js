@@ -41,22 +41,16 @@ sr.reveal(".intro-text", {
 
 // Project text animation on homepage- delay entry
 sr.reveal("#projects", {
-    useDelay: 'once',
-    delay: 1000,
-    easing: 'ease-in'
-})
-
-// First row of project boxes animation on homepage- delay entry
-sr.reveal("#first-row", {
-    useDelay: 'once',
+    useDelay: 'onload',
     delay: 2000,
-    easing: 'ease-in',
-    opacity: 0,
+    easing: 'ease-in'
 })
 
 // Project boxes animation on homepage- delay entry and reveal
 sr.reveal(".work-row", {
-    delay: 200,
+    useDelay: 'onload',
+    delay: 3000,
+    easing: 'ease-in',
     opacity: 0,
 })
 

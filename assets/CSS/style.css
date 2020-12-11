@@ -139,7 +139,7 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
 /* Source: https://www.codeblocq.com/2016/05/Blur-Image-on-Hover-with-CSS/ */
 .work-col:hover .work-image{
     filter: blur(2px);
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 /* Images in Project Boxes */
@@ -199,6 +199,10 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
     text-align: center;
     height: auto;
     width: 100%;
+}
+
+.active-footer{
+    color: #FFFFFF;
 }
 
 .footer-text:hover{
