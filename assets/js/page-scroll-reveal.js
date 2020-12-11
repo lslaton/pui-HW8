@@ -109,3 +109,17 @@ sr.reveal(".about-text", {
     distance: '300px'
 })
 
+//When click in footer anim header with bounceIn animation.
+AniJS.createAnimation([{
+    event: 'click',
+    eventTarget: 'footer',
+    behaviorTarget: 'header',
+    behavior: 'bounceIn',
+    before: function(e, animationContext){
+        if( someVariable ){
+            //Run the animation
+            animationContext.run()
+        }
+    }
+}]);
+
