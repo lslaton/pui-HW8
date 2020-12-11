@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="87b3f75a-caef-4cde-aec6-d4f6e0b1499a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/work-pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/work-pages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/page-scroll-reveal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/page-scroll-reveal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ixdp1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ixdp1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ixdp3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ixdp3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kst.html" beforeDir="false" afterPath="$PROJECT_DIR$/kst.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pd.html" beforeDir="false" afterPath="$PROJECT_DIR$/pd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pui.html" beforeDir="false" afterPath="$PROJECT_DIR$/pui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ixdp1-original-site.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ixdp3-iteration1&amp;2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ixdp3-iteration4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ixdp3-personas.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,8 @@
       <workItem from="1607560058890" duration="2118000" />
       <workItem from="1607574758672" duration="4417000" />
       <workItem from="1607619143234" duration="3900000" />
-      <workItem from="1607646602761" duration="27105000" />
+      <workItem from="1607646602761" duration="27866000" />
+      <workItem from="1607705331757" duration="339000" />
     </task>
     <servers />
   </component>
