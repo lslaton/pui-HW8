@@ -30,6 +30,12 @@ hr.solid {
     padding-top: 86px;
 }
 
+@media (max-width: 375px){
+    .page-title{
+        font: normal 48px/54px "DM Sans";
+    }
+}
+
 /* || OVERVIEW SECTION || */
 /* Text in Overview Section */
 .overview-subtitle{
