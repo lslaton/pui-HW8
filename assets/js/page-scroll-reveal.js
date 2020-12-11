@@ -87,7 +87,7 @@ const pageHeaderBottom = {
 })
 
 // Animation for solution image
-    sr.reveal(".solution-title, .project-name, .solution-img", {
+    sr.reveal(".solution-title, .project-name", {
         delay: 500,
         origin: 'bottom'
     })
