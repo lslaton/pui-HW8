@@ -12,6 +12,7 @@ html, body{
     padding-bottom: 10px;
 }
 
+/* Padding for work boxes on home page */
 .work-row, #first-row{
     padding-top: 0;
     padding-bottom: 0;
@@ -29,7 +30,7 @@ html, body{
     color: #638898;
 }
 
-/* Hovering on Name in Nav Bar */
+/* Hovering on name in Nav Bar */
 .navbar-brand:hover{
     color: #FE938C;
 }
@@ -83,6 +84,7 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
     margin: auto;
 }
 
+/* Adjust height of cartoon on screens smaller than 786px (medium screen) */
 @media (max-width: 768px){
     #lia-cartoon{
         height: 300px;
@@ -93,7 +95,8 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
     }
 }
 
-/* || PROJECTS HEADER || */
+/* || PROJECTS SECTION || */
+/* Project text */
 #projects{
     font: normal 36px/47px "DM Sans";
     color: #D5AC4E;
@@ -107,6 +110,7 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
     height: 324px;
 }
 
+/* Formatting for lines on project boxes */
 .left{
     border-right: 1px solid #2F2F2F;
 }
@@ -124,25 +128,28 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
 }
 
 /* Hover over Project Boxes */
+/* Background of project box changes color */
 /* Source for transition: https://www.w3schools.com/howto/howto_css_transition_hover.asp */
 .work-col:hover{
     background-color: #D5AC4E;
     transition: 0.1s;
 }
 
+/* Hover over box displays project text */
 /* Source: https://stackoverflow.com/questions/5061940/changing-the-child-elements-css-when-the-parent-is-hovered */
 .work-col:hover .work-text {
     display: block;
     transition: 0.3s;
 }
 
+/* Hover over box blurs background image
 /* Source: https://www.codeblocq.com/2016/05/Blur-Image-on-Hover-with-CSS/ */
 .work-col:hover .work-image{
     filter: blur(2px);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
-/* Images in Project Boxes */
+/* Images in Project Boxes position */
 .work-image{
     display: block;
     margin: auto;
@@ -171,12 +178,13 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
     opacity: 1;
 }
 
-/* Color of Text in Project Boxes */
+/* White text in Project Boxes */
 .white{
     color: #FFFFFF;
 }
 
 /* || FOOTER || */
+/* Position of items in footer */
 .footer{
     background-color: #D5AC4E;
     border-color: #D5AC4E;
@@ -186,12 +194,14 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
     height: 60px;
 }
 
+/* Footer row size */
 .footer-row{
     padding-top: 20px;
     padding-bottom: 0;
     background-color: #D5AC4E;
 }
 
+/* Text in footer */
 .footer-text{
     font: normal 18px/28px "DM Sans";
     color: #2F2F2F;
@@ -201,15 +211,18 @@ nav .navbar-toggler:focus, .navbar-toggler-icon:focus{
     width: 100%;
 }
 
+/* Active page to white text */
 .active-footer{
     color: #FFFFFF;
 }
 
+/* Hover over text turns white */
 .footer-text:hover{
     color: #FFFFFF;
     text-decoration: none;
 }
 
+/* Footer margins */
 .footer-margin{
     background-color: #D5AC4E;
 }
